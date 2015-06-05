@@ -1,0 +1,93 @@
+{
+  "title": "Car",
+  "type": "object",
+  "properties": {
+    "Model": {
+      "required": true,
+      "type": "string"
+    },
+    "Year": {
+      "required": true,
+      "type": "integer"
+    },
+    "Color": {
+      "required": true,
+      "type": "string"
+    },
+    "Price": {
+      "required": true,
+      "type": "array",
+      "items": {
+        "type": "integer"
+      }
+    },
+    "Cities": {
+      "required": true,
+      "type": "array",
+      "items": {
+        "type": [
+          "string",
+          "null"
+        ]
+      }
+    },
+    "CharTest": {
+      "required": true,
+      "type": "string"
+    },
+    "CharArrayTest": {
+      "required": true,
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "FloatTest": {
+      "required": true,
+      "type": "number"
+    },
+    "FloatArrayTest": {
+      "required": true,
+      "type": "array",
+      "items": {
+        "type": "number"
+      }
+    },
+    "NamespaceTest": {
+      "required": true,
+      "type": "object",
+      "properties": {
+        "Description": {
+          "required": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "BuyersInfo": {
+      "required": true,
+      "type": "array",
+      "items": {
+        "type": [
+          "object",
+          "null"
+        ],
+        "properties": {
+          "name": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "number": {
+            "required": true,
+            "type": "integer"
+          }
+        }
+      }
+    }
+  }
+}

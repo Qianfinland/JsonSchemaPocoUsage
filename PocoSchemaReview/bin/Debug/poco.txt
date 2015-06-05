@@ -1,0 +1,17 @@
+public class Poco_1473af2c70ed4d71b222b1c990777038 {
+public object Description { get; set; }
+}
+public class Car {
+public string Model { get; set; }
+public int Year { get; set; }
+public string Color { get; set; }
+public IEnumerable<int?> Price { get; set; }
+public IEnumerable<object> Cities { get; set; }
+public string CharTest { get; set; }
+public IEnumerable<string> CharArrayTest { get; set; }
+public float FloatTest { get; set; }
+public IEnumerable<float?> FloatArrayTest { get; set; }
+public Poco_1473af2c70ed4d71b222b1c990777038 NamespaceTest { get; set; }
+public IEnumerable<object> BuyersInfo { get; set; }
+}
+
